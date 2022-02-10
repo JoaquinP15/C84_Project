@@ -27,7 +27,7 @@ function my_keydown(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+		if((keyPressed >=65 && keyPressed<=90)|| (keyPressed >=97 && keyPressed<=122))
         {
               aplhabetkey();
 			  document.getElementById("d1").innerHTML="You pressed Alphabet Key";
