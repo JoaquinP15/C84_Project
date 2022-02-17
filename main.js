@@ -33,6 +33,20 @@ function my_keydown(e)
 			  document.getElementById("d1").innerHTML="You pressed Alphabet Key";
 			  console.log("alphabetkey");
 	    }
+	
+	if(keyPressed >=48 && keyPressed<=57)
+        {
+              numberkey();
+			  document.getElementById("d1").innerHTML="You pressed Numberkey Key";
+			  console.log("numberkey");
+	    }
+
+		if(keyPressed >=37 && keyPressed<=40)
+        {
+              arrowkey();
+			  document.getElementById("d1").innerHTML="You pressed Arrowkey Key";
+			  console.log("arraowkey");
+	    }
 }
 
 function aplhabetkey()
@@ -46,10 +60,12 @@ function numberkey()
 	add();
 }
 function arrowkey()
-}
-img_image="Arrkey.png"
-add();
 {
+	img_image="Arrkey.png"
+        add();
+}
+
+
 function specialkey()
 {
 	img_image="spkey.png"
